@@ -1,0 +1,33 @@
+div.container {
+    margin-top: 10px;
+}
+
+div.container > h1 {
+    display: flex;
+    justify-content: space-between
+}
+
+div.card {
+    margin-bottom: 20px;
+}
+
+div.card-header {
+    font-size: 20px;
+}
+
+button.create {
+    /*float: right;*/
+    margin-top: 6px;
+}
+
+span.state-value {
+    font-weight: bold;
+}
+
+button.change-state {
+    cursor: pointer;
+    display: inline;
+    border: none;
+    padding: 0;
+    vertical-align: top;
+}
